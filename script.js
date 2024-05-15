@@ -50,3 +50,66 @@ const todo ={
 
 
 }
+// Du kan utføre matematikk med variabler
+const numberA=10
+const numberB=32
+const numberC = numberA + numberB +10
+console.log(numberC)
+
+
+//strenger kan og kombineres
+const stringA = "Foo"
+const stringB = "Bar"
+
+
+// string templates
+
+//boolean operasjoner
+
+const numberD = 10
+const numberE =15
+const isGreater = numberD > numberE
+console.log(isGreater)
+
+const nameA = "Monica"
+const nameB = "Eirik"
+const isEqual = nameA === nameB
+console.log(isEqual)
+
+//Forgreininger
+
+// if else
+
+const personA = {
+  name: "Kai",
+  age: 17, 
+
+}
+
+console.log("if else block is finished")
+
+
+// Løkker
+
+
+let count =0
+while (count <= 10) {
+  console.log (count)
+  count = count +1
+}
+
+const names = [
+  "Lars", 
+  "kai", 
+  "Kristine",
+  "julie",
+  "janus"
+]
+
+console.log(names.length)
+for (let index = 0; index < names.length; index++) {
+  console.log(names[index])
+}
+
+//funksjoner og moduler
+
